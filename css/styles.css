@@ -97,7 +97,7 @@ body {
 }
 
 .hero-btn {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -107,10 +107,7 @@ body {
   cursor: pointer;
 }
 
-.competence {
-  background-color: var(--primary-light-bg);
-}
-
+/* Competence */
 .competence-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -120,10 +117,7 @@ body {
   color: var(--title-cl);
 }
 
-.affairs {
-  background-color: var(--primary-light-bg);
-}
-
+/* Affairs */
 .affairs-title {
   font-weight: 700;
   font-size: 36px;
@@ -179,6 +173,7 @@ body {
 }
 
 .address-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -192,23 +187,23 @@ body {
 /* Вторая страничка макета - ПОРТФОЛИО */
 
 /* Filters */
-.filters,
-.portfolio {
-  background-color: var(--primary-light-bg);
-}
-
-.filters-item-link {
+.filters-item-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-cl);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
-.filters-item-link:hover,
-.filters-item-link:focus {
+.filters-item-btn:hover,
+.filters-item-btn:focus {
   color: var(--light-txt-cl);
+  background: var(--accent-bg-cl);
 }
 
 .portfolio-item-title {
